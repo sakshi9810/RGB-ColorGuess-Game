@@ -1,0 +1,74 @@
+body{
+	background: gray;
+	margin:0;
+	font-family: 'Poiret One', cursive;
+}
+
+.square{
+	width:30%;
+	background:pink;
+	padding-bottom:30%;
+	float:left;
+	margin:1.66%;
+	border-radius: 17%;        /*border radius is given to shape the border of the squares here*/
+    transition: background 0.4s;
+}
+
+#container{
+	max-width: 600px;
+	margin:20px auto;
+}
+
+#message{
+	font-weight: bold;
+	color: black;
+	display: inline-block;
+	width: 20%;                /*this is done to make spacing(or push the elemts to the side) between new colors and easy/hard option ie span*/
+}
+
+h1{
+	color: white;
+	text-align: center;
+	line-height: 1.1;
+	margin: center;
+	background:steelblue;
+	margin: 0;                           /*to get rid of margin or space b/w heading and para tag*/
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;               /*can be written as padding:20px 0; */     
+    }  
+
+button{
+	border:none;
+	text-transform: uppercase;
+	font-family: 'Poiret One', cursive;
+	background: none;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;    /*transition property is used to make transitions of font size type colors etc*/
+	outline: none;
+}
+
+button:hover{
+	color: white;
+	background: steelblue;
+}	 
+
+#displayColor{
+	font-size: 170%;
+}    
+
+#stripes{
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+}
